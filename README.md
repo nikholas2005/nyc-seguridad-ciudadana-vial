@@ -3,7 +3,7 @@
 Diagnóstico territorial de **arrestos** y **choques de tránsito** en la ciudad de Nueva York entre 2021 y 2026, procesado con **Apache Spark** por distrito y por las **55 PUMAs** del censo. Se cruzan los dos indicadores con condiciones sociales y servicios públicos.
 
 Proyecto del curso **Procesamiento de Datos a Gran Escala (clase 1255)**, Pontificia Universidad Javeriana, Bogotá.
-Profesor: John Corredor Franco, PhD.
+Profesor: John Jairo Corredor Franco, PhD.
 
 **Equipo consultor:**
 - Nikholas Barsky Angulo
@@ -97,15 +97,17 @@ Son asociaciones exploratorias y no causas.
 
 ## Estructura del repositorio
 
-**Primera entrega**
+```
+├── README.md
+├── notebook/
+│   └── proyecto_NY_final.ipynb
+├── informe/
+│   └── Informe_Proyecto_NY.pdf
+└── presentacion/
+    └── Big_Data_seguridad_ciudadana_y_vial_NY.pdf
+```
 
-| Archivo | Contenido |
-|---|---|
-| `proyecto_NY_final.ipynb` | Notebook con todo el procesamiento en Spark, las gráficas y los análisis |
-| `informe entrega 1.pdf` | Informe escrito de la primera entrega |
-| `Big Data aplicado a la seguridad ciudadana y vial de Nueva York` (PDF) | Presentación ejecutiva de la sustentación |
-
-Los archivos de la entrega final se agregarán a este mismo repositorio. Los datos no se incluyen por su tamaño; se descargan desde los enlaces de la tabla de fuentes.
+Los datos no se incluyen por su tamaño; se descargan desde los enlaces de la tabla de fuentes.
 
 ## Cómo ejecutar el notebook
 
